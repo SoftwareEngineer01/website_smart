@@ -1,3 +1,25 @@
 li a.nav-link {
     color: black!important;
 }
+
+.bgc {
+    background-color: hsl(354, 96%, 44%);
+}
+
+.btn-conocenos {
+    background-color: #ffff;
+    color: hsl(354, 96%, 44%);
+}
+
+.bg-service {
+    color: #ffff;
+}
+
+.hexagon2 {
+    background: url("../img/hexagon-shape-white.svg") no-repeat center/contain !important;   
+}
+
+.hexagon2::after {
+    -webkit-mask: url("../img/hexagon-shape-white.svg") no-repeat center/contain !important;
+    mask: url("../img/hexagon-shape-white.svg") no-repeat center/contain !important;
+}
