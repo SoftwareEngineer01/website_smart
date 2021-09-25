@@ -23,3 +23,10 @@ li a.nav-link {
     -webkit-mask: url("../img/hexagon-shape-white.svg") no-repeat center/contain !important;
     mask: url("../img/hexagon-shape-white.svg") no-repeat center/contain !important;
 }
+
+@media only screen and (min-width: 1201px) {
+    .hexagons{
+        margin-left: -200px;
+    }
+}
+
